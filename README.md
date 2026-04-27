@@ -1,6 +1,6 @@
 # Guess Who Digit
 
-Two-player "Guess Who" where the board is a 6×6 grid of random keyboard characters. Played in person — each player uses their own phone.
+Two-player "Guess Who" where the board is a 5×5 grid of random keyboard characters. Played in person — each player uses their own phone.
 
 **Play it:** https://c0webster.github.io/guess-who-digit/
 

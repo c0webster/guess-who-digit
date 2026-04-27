@@ -89,7 +89,7 @@
   .banner[hidden] { display: none; }
   .grid {
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     gap: 6px;
     aspect-ratio: 1 / 1;
   }
@@ -101,7 +101,7 @@
     border: 1px solid #d0d0d0;
     border-radius: 8px;
     font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
-    font-size: clamp(22px, 7vw, 36px);
+    font-size: clamp(26px, 8.5vw, 42px);
     font-weight: 600;
     cursor: pointer;
     user-select: none;
@@ -215,7 +215,7 @@
       const j = Math.floor(rng() * (i + 1));
       [pool[i], pool[j]] = [pool[j], pool[i]];
     }
-    return pool.slice(0, 36);
+    return pool.slice(0, 25);
   }
 
   function randomSeed() {
