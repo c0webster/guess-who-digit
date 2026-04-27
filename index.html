@@ -201,13 +201,14 @@
     return mulberry32(xmur3(seed)());
   }
 
-  const POOL = (
+  const POOL = [...new Set((
     "abcdefghijklmnopqrstuvwxyz" +
     "ABCDEFGHIJKLMNOPQRSTUVWXYZ" +
     "0123456789" +
     "!@#$%^&*()_+-=[]{};:'\",.<>/?\\|~" +
-    "£€¥•"
-  ).split("");
+    "£€¥•" +
+    "™©®°±÷≈≠§¶†‡…πΩ∞√µ¿¡"
+  ).split(""))];
 
   function generateGrid(seed) {
     const rng = rngFromSeed(seed);
